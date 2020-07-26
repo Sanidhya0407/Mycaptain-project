@@ -1,0 +1,13 @@
+from collections import Counter
+a=input("enter the string:")
+def most_frequent(self):
+    frequency={}
+    for b in a:
+        if b in frequency:
+           frequency[b]+=1
+        else:
+           frequency[b]=1
+most_frequent(a)
+frequency_per_b=Counter(a)
+print("frequency is:",frequency_per_b)
+           
